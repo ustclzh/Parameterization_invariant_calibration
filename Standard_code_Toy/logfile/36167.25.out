@@ -1,0 +1,235 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+D_true =
+
+    0.8322   -1.6232
+   -1.6232    4.3678
+
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 449.944439 
+
+
+ans =
+
+  450.6407  450.6407  449.9444  171.3171
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.4406   -1.8044
+   -1.8044    9.6594
+
+
+Err =
+
+    1.0545
+
+
+Err =
+
+    1.0545         0         0    1.0501
+
+early terminal for design generation
+
+ans =
+
+ -111.1313 -111.1313 -111.1313    2.0733
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    0.8518   -1.6717
+   -1.6717    4.4923
+
+
+Err =
+
+    1.0545    0.0340         0    1.0501
+
+
+Err =
+
+    1.0545    0.0340         0    1.0501    0.0312
+
+
+ans =
+
+  196.0604  196.0604  196.0565   34.0517
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.5873   -2.1417
+   -2.1417    9.5125
+
+
+Err =
+
+    1.0545    0.0340    1.0467    1.0501    0.0312
+
+
+Err =
+
+    1.0545    0.0340    1.0467    1.0501    0.0312    1.0467
+
+
+ans =
+
+  100.5572  100.5572  100.5572  104.2950
+
+
+Computing finite-difference Hessian using objective function.
+
+Solver stopped prematurely.
+
+fminunc stopped because it exceeded the function evaluation limit,
+options.MaxFunctionEvaluations = 3.000000e+02.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.1773   -0.8329
+   -0.8329    9.0686
+
+
+Err =
+
+    1.2886
+
+
+Err =
+
+    1.2886         0         0    1.2334
+
+early terminal for design generation
+
+ans =
+
+ -101.7058 -101.7058 -101.7058   23.0000
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because it cannot decrease the objective function
+along the current search direction.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    0.8670   -1.6865
+   -1.6865    4.4841
+
+
+Err =
+
+    1.2886    0.0370         0    1.2334
+
+
+Err =
+
+    1.2886    0.0370         0    1.2334    0.0360
+
+
+ans =
+
+   44.7167   44.7167   44.7167   52.7779
+
+
+Computing finite-difference Hessian using objective function.
+
+Solver stopped prematurely.
+
+fminunc stopped because it exceeded the function evaluation limit,
+options.MaxFunctionEvaluations = 3.000000e+02.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.2134   -1.0455
+   -1.0455    9.7421
+
+
+Err =
+
+    1.2886    0.0370    1.2433    1.2334    0.0360
+
+
+Err =
+
+    1.2886    0.0370    1.2433    1.2334    0.0360    1.1618
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    0.8320   -1.6257
+   -1.6257    4.3838
+
+
+D_true =
+
+    4.0791    1.8900
+    1.8900    1.1209
+
+
+ans =
+
+   1.0e+03 *
+
+    1.8240    1.8240    1.8240    0.7760
+

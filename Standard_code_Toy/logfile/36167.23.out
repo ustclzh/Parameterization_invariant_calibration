@@ -1,0 +1,1046 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+D_true =
+
+    1.0455   -1.8285
+   -1.8285    4.1545
+
+
+ans =
+
+  423.1813  423.1813  423.1812  174.8952
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.4475   -1.8219
+   -1.8219    9.6525
+
+
+Err =
+
+    1.1256
+
+
+Err =
+
+    1.1256         0         0    1.1474
+
+
+ans =
+
+ -105.3795 -105.3795 -105.3795   26.3159
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because it cannot decrease the objective function
+along the current search direction.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    1.0164   -1.7552
+   -1.7552    3.9796
+
+
+Err =
+
+    1.1256    0.0496         0    1.1474
+
+
+Err =
+
+    1.1256    0.0496         0    1.1474    0.0463
+
+
+ans =
+
+  187.2515  187.2515  187.2515   34.5067
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.6367   -2.2418
+   -2.2418    9.4633
+
+
+Err =
+
+    1.1256    0.0496    1.0811    1.1474    0.0463
+
+
+Err =
+
+    1.1256    0.0496    1.0811    1.1474    0.0463    1.1092
+
+
+ans =
+
+  108.7644  108.7644  108.7644  110.2574
+
+
+Computing finite-difference Hessian using objective function.
+
+Solver stopped prematurely.
+
+fminunc stopped because it exceeded the function evaluation limit,
+options.MaxFunctionEvaluations = 3.000000e+02.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.2036   -1.0023
+   -1.0023    9.7975
+
+
+Err =
+
+    1.4213
+
+
+Err =
+
+    1.4213         0         0    1.3718
+
+early terminal for design generation
+
+ans =
+
+  -95.7589  -95.7589  -95.7589   11.9091
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because it cannot decrease the objective function
+along the current search direction.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    0.9704   -1.6646
+   -1.6646    3.7787
+
+
+Err =
+
+    1.4213    0.1068         0    1.3718
+
+
+Err =
+
+    1.4213    0.1068         0    1.3718    0.1055
+
+
+ans =
+
+   52.8969   52.8969   52.8964   55.2739
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.4348   -1.7411
+   -1.7411    9.1553
+
+
+Err =
+
+    1.4213    0.1068    1.0524    1.3718    0.1055
+
+
+Err =
+
+    1.4213    0.1068    1.0524    1.3718    0.1055    0.9361
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    1.0456   -1.8312
+   -1.8312    4.1675
+
+
+D_true =
+
+    4.6189    1.2977
+    1.2977    0.5811
+
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 1454.860800 
+
+
+ans =
+
+   1.0e+03 *
+
+    1.4558    1.4558    1.4549    0.4253
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.1777   -0.8735
+   -0.8735    9.9223
+
+
+Err =
+
+    3.7125
+
+
+Err =
+
+    3.7125         0         0    3.6085
+
+
+ans =
+
+    2.4187    2.4187    2.4187   21.3413
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    0.8367    0.1608
+    0.1608    0.3494
+
+
+Err =
+
+    3.7125    1.3103         0    3.6085
+
+
+Err =
+
+    3.7125    1.3103         0    3.6085    1.3331
+
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 840.852733 
+
+
+ans =
+
+  841.0299  841.0299  840.8527  126.9101
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.7887    2.5186
+    2.5186    9.3113
+
+
+Err =
+
+    3.7125    1.3103    2.6476    3.6085    1.3331
+
+
+Err =
+
+    3.7125    1.3103    2.6476    3.6085    1.3331    2.6294
+
+
+ans =
+
+  375.8510  375.8510  375.8510  328.6485
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.1000    0.0070
+    0.0070   10.0000
+
+
+Err =
+
+    3.3123
+
+
+Err =
+
+    3.3123         0         0    3.3101
+
+early terminal for design generation
+
+ans =
+
+  -89.5274  -89.5274  -89.5274   26.5381
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    5.0459    1.4376
+    1.4376    0.6224
+
+
+Err =
+
+    3.3123    0.1037         0    3.3101
+
+
+Err =
+
+    3.3123    0.1037         0    3.3101    0.1025
+
+
+ans =
+
+  251.9333  251.9333  251.9333  231.1092
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    9.3854    2.3888
+    2.3888    0.7146
+
+
+Err =
+
+    3.3123    0.1037    0.9415    3.3101    0.1025
+
+
+Err =
+
+    3.3123    0.1037    0.9415    3.3101    0.1025    0.9118
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    4.6116    1.2947
+    1.2947    0.5799
+
+
+D_true =
+
+    0.9866    1.7768
+    1.7768    4.2134
+
+
+ans =
+
+   1.0e+03 *
+
+    1.4535    1.4535    1.4535    0.6437
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.9418    2.7614
+    2.7614    9.1582
+
+
+Err =
+
+    1.0571
+
+
+Err =
+
+    1.0571         0         0    1.0555
+
+early terminal for design generation
+
+ans =
+
+  -65.1656  -65.1656  -65.1656   38.8703
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because it cannot decrease the objective function
+along the current search direction.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    0.7992    1.4470
+    1.4470    3.6403
+
+
+Err =
+
+    1.0571    0.1971         0    1.0555
+
+
+Err =
+
+    1.0571    0.1971         0    1.0555    0.1975
+
+
+ans =
+
+  685.7699  685.7699  685.2938  140.9877
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.5614    2.0865
+    2.0865    9.5364
+
+
+Err =
+
+    1.0571    0.1971    1.0766    1.0555    0.1975
+
+
+Err =
+
+    1.0571    0.1971    1.0766    1.0555    0.1975    1.0471
+
+
+ans =
+
+  402.0523  402.0523  402.0516  434.0199
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    1.2824    3.2105
+    3.2105    8.8172
+
+
+Err =
+
+    1.0627
+
+
+Err =
+
+    1.0627         0         0    1.0272
+
+early terminal for design generation
+
+ans =
+
+  -86.2593  -86.2593  -86.2593   28.9628
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    1.1273    2.0472
+    2.0472    4.7431
+
+
+Err =
+
+    1.0627    0.1553         0    1.0272
+
+
+Err =
+
+    1.0627    0.1553         0    1.0272    0.1545
+
+
+ans =
+
+  204.0273  204.0273  204.0273  259.2527
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.7275    1.8694
+    1.8694    5.6690
+
+
+Err =
+
+    1.0627    0.1553    0.4334    1.0272    0.1545
+
+
+Err =
+
+    1.0627    0.1553    0.4334    1.0272    0.1545    0.4315
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    0.9853    1.7744
+    1.7744    4.2092
+
+
+D_true =
+
+    4.5887    1.3435
+    1.3435    0.6113
+
+
+ans =
+
+   1.0e+03 *
+
+    1.1303    1.1303    1.1302    0.4278
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    1.4660    3.4141
+    3.4141    8.6330
+
+
+Err =
+
+    2.4091
+
+
+Err =
+
+    2.4091         0         0    2.4109
+
+early terminal for design generation
+
+ans =
+
+  -74.8698  -74.8698  -74.8698   23.7136
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    5.5063    1.5944
+    1.5944    0.6695
+
+
+Err =
+
+    2.4091    0.2113         0    2.4109
+
+
+Err =
+
+    2.4091    0.2113         0    2.4109    0.2135
+
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 839.029474 
+
+
+ans =
+
+  839.3536  839.3536  839.0295  126.2799
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    0.8485    2.6173
+    2.6173    9.2514
+
+
+Err =
+
+    2.4091    0.2113    2.6031    2.4109    0.2135
+
+
+Err =
+
+    2.4091    0.2113    2.6031    2.4109    0.2135    2.5848
+
+
+ans =
+
+  359.7995  359.7995  359.7994  331.6647
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    3.6849    4.7580
+    4.7580    6.4151
+
+
+Err =
+
+    1.8656
+
+
+Err =
+
+    1.8656         0         0    1.0065
+
+
+ans =
+
+  -87.2946  -87.2946  -87.2946   28.0740
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    5.0923    1.5448
+    1.5448    0.6928
+
+
+Err =
+
+    1.8656    0.1282         0    1.0065
+
+
+Err =
+
+    1.8656    0.1282         0    1.0065    0.1254
+
+
+ans =
+
+  253.2803  253.2803  253.2803  232.3148
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    9.3556    2.4422
+    2.4422    0.7444
+
+
+Err =
+
+    1.8656    0.1282    0.9429    1.0065    0.1254
+
+
+Err =
+
+    1.8656    0.1282    0.9429    1.0065    0.1254    0.9384
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    4.5930    1.3465
+    1.3465    0.6128
+
+
+D_true =
+
+    3.3201   -2.2894
+   -2.2894    1.8799
+
+
+ans =
+
+  821.5942  821.5942  821.5942  335.8286
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    0.3130   -1.4365
+   -1.4365    9.7870
+
+
+Err =
+
+    2.2016
+
+
+Err =
+
+    2.2016         0         0    1.8442
+
+
+ans =
+
+   80.2006   80.2006   80.2006   42.7575
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    1.4522   -0.7689
+   -0.7689    9.9308
+
+
+Err =
+
+    2.2016    2.6834         0    1.8442
+
+
+Err =
+
+    2.2016    2.6834         0    1.8442    2.6626
+
+
+ans =
+
+  275.7820  275.7820  275.7820   76.5594
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    2.2430   -4.0772
+   -4.0772    7.8570
+
+
+Err =
+
+    2.2016    2.6834    1.5061    1.8442    2.6626
+
+
+Err =
+
+    2.2016    2.6834    1.5061    1.8442    2.6626    1.5783
+
+
+ans =
+
+  182.9381  182.9381  182.9359  242.9807
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of initial design based Posterior and err
+
+D_ini =
+
+    1.1656   -1.3120
+   -1.3120    1.7155
+
+
+Err =
+
+    0.7461
+
+
+Err =
+
+    0.7461         0         0    0.7080
+
+early terminal for design generation
+
+ans =
+
+  -47.8110  -47.8110  -47.8110   37.5615
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of sequential design based Posterior and err
+
+D_seq =
+
+    1.9191   -1.2486
+   -1.2486    1.1169
+
+
+Err =
+
+    0.7461    0.5630         0    0.7080
+
+
+Err =
+
+    0.7461    0.5630         0    0.7080    0.5653
+
+
+ans =
+
+  -25.4135  -25.4135  -25.4135  134.8274
+
+
+Computing finite-difference Hessian using objective function.
+
+Solver stopped prematurely.
+
+fminunc stopped because it exceeded the function evaluation limit,
+options.MaxFunctionEvaluations = 3.000000e+02.
+
+MAP of SP design based Posterior and err
+
+D_ini_only =
+
+    4.5518   -3.3011
+   -3.3011    2.5478
+
+
+Err =
+
+    0.7461    0.5630    0.4540    0.7080    0.5653
+
+
+Err =
+
+    0.7461    0.5630    0.4540    0.7080    0.5653    0.4675
+
+
+Computing finite-difference Hessian using objective function.
+
+Local minimum possible.
+
+fminunc stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+MAP of Simulator based Posterior
+
+D =
+
+    3.3110   -2.2856
+   -2.2856    1.8780
+

@@ -1,0 +1,20 @@
+/opt/matlab/latest/bin/matlab: line 1335: lsb_release: command not found
+{Error using fminusub (line 118)
+Finite difference derivatives at initial point contain Inf, NaN, or complex
+values. Fminunc cannot continue.
+
+Error in fminunc (line 457)
+   [x,FVAL,GRAD,HESSIAN,EXITFLAG,OUTPUT] = fminusub(funfcn,x, ...
+
+Error in map_optimization (line 30)
+            [x0,fval,exitflag,output,grad,hessian] = fminunc(@f_opt_emu1,x2);
+
+Error in run_emulator_based_infer (line 3)
+        [D_ini,x_ini,hessian_ini]=map_optimization(data_initial);
+
+Error in main (line 25)
+RESULT_SP{all_cycle}=run_emulator_based_infer(DATA{1},DATA{2},D_true);
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 

@@ -1,0 +1,9 @@
+/opt/matlab/latest/bin/matlab: line 1335: lsb_release: command not found
+{Index in position 2 exceeds array bounds (must not exceed 1000).
+
+Error in main (line 15)
+D_true=D_TRUE{d,all_cycle+inst*30};
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 
