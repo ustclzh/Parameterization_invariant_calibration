@@ -1,18 +1,22 @@
 % note: true value generated from the prior model. 
 % compare the misspecified prior and correctly specified prior
 % compare design 
+
+
+
 addpath(genpath(pwd));
-%eg = 3;
-%distance_gp = 5;
-%ini_size = 5;
-%seq_size = 5;
-%inst = 1;
-%design_algo = 2;
-%True_theta = 1;
-%design_algo = 2;
-%design_criterion = 2
+eg
+eg = 3;
+distance_gp = 5;
+ini_size = 5;
+seq_size = 5;
+inst = 1;
+design_algo = 2;
+True_theta = 1;
+design_algo = 2;
+design_criterion = 2;
 strategy = 1;
-do_mcmc = 1;
+do_mcmc = 0;
 
 data=config(eg,distance_gp,ini_size,seq_size);% eg, decomposition
 d = data.d;
@@ -21,15 +25,15 @@ data.iso_kernel=1;
 data.design_algo = design_algo;
 data0=Model_Generator(D_true,data); % data
 
-data1=Design_Initial(data0,1);
-data12=Design_Initial(data0,1,2);
-data2=Design_Initial(data0,2);
+data1=Design_Initial(data0,1);  % uniform prior, same design
+%data12=Design_Initial(data0,1,2);   % uniform prior, matrix F design
+data2=Design_Initial(data0,2);   % matrix F prior, same design
 %data03=Design_Initial(data0,3);
-data14=Design_Initial(data0,1,4, eye(d), d+1);
-data4=Design_Initial(data0,4,4, eye(d), d+1);
+data14=Design_Initial(data0,1,4, eye(d), d+1); % wishart prior, uniform design
+data4=Design_Initial(data0,4,4, eye(d), d+1);  % wishart prior, wishart design
 data1=Emulator_Train(data1);
 data2=Emulator_Train(data2);
-data12=Emulator_Train(data12);
+%data12=Emulator_Train(data12);
 %data_iso_3=Emulator_Train(data03);
 data4=Emulator_Train(data4);
 data14=Emulator_Train(data14);
@@ -37,7 +41,7 @@ data14=Emulator_Train(data14);
 distance_gp
 inst
 labels = {'uni+uni','matf+matf','wish(I,d+1)+wish','matf+uni','wish+uni'};
-DATA = {data1,data2,data4,data12,data14};
+DATA = {data1,data2,data4,data14};
 %DATA = {data_initial11,data_initial14};
 LABEL = labels;
 k = length(DATA); 

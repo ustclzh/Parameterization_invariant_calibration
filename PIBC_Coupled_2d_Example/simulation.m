@@ -6,15 +6,15 @@
 
 addpath(genpath(pwd));
 eg
-%eg = 3;
-%distance_gp = 5;
-%ini_size = 5;
-%seq_size = 5;
-%inst = 1;
-%design_algo = 2;
-%True_theta = 1;
-%design_algo = 2;
-%design_criterion = 2
+eg = 2;
+distance_gp = 5;
+ini_size = 5;
+seq_size = 5;
+inst = 1;
+design_algo = 2;
+True_theta = 1;
+design_algo = 2;
+design_criterion = 2;
 strategy = 1;
 do_mcmc = 0;
 

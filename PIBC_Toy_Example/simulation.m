@@ -10,7 +10,7 @@ for i =1:4
 end 
 
 % true parameter
-for all_cycle = 1:10
+for all_cycle = 1:100
 D_true=D_TRUE{d,all_cycle+inst*30};
 D_true
 N=1;
