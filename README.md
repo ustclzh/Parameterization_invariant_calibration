@@ -12,6 +12,6 @@ To reproduce the results in Section 7.3., open the folder "PIBC_Heat_3d_Example"
 
 
 
-*If you have any questions, feel free to shoot me an email by \mailto{lizh@amss.ac.cn}*
+*If you have any questions, feel free to shoot me an email by mailto:lizh@amss.ac.cn*
 
 
